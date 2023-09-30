@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="home-container">
-      <h2 class="home-toptext">Hi there, I'm</h2>
+      <h2 class="home-toptext">Hi there, my name is</h2>
       <h1 class="home-text">Jack Thompson</h1>
       <div>
         <p class="home-about-text">I'm a 2nd Year University student </p>
@@ -18,7 +18,7 @@
           <p class="welcome-text counter-margin">section</p>
         </div>
         <div class="welcome-text-container">
-          <p class="welcome-text">Or see what kind of stuff I make in my</p>
+          <p class="welcome-text">Or see what kind of stuff I make on my</p>
           <p class="about-link-text">Portfolio</p>
           <p class="welcome-text counter-margin">page</p>
         </div>

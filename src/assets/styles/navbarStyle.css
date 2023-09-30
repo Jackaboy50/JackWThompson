@@ -2,7 +2,10 @@
     font-family: JetBrains;
     src: url('../fonts/webfonts/JetBrainsMono-Regular.woff2');
 }
-
+@font-face {
+    font-family: PoppinsBold;
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
 .navbar-container{
     text-align: center;
     font-size: 20px;
@@ -14,13 +17,14 @@
     display: inline;
     color: #e75e03;
     font-weight: normal;
+    font-family: JetBrains;
 }
 
 .navbar-item{
     color: #abb2bf;
     text-decoration: none;
     margin: 30px;
-    font-family: JetBrains;
+    font-family: PoppinsBold;
     display: inline;
 }
 
@@ -40,6 +44,5 @@
     width: 70%;
     height: 2px;
     border-width: 0;
-    color: #abb2bf;
     background-color: #abb2bf;
 }
