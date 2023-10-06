@@ -1,8 +1,4 @@
 @font-face {
-    font-family: JetBrains;
-    src: url('../fonts/webfonts/JetBrainsMono-Regular.woff2');
-}
-@font-face {
     font-family: PoppinsBold;
     src: url('../fonts/Poppins/Poppins-Bold.ttf');
 }
@@ -17,7 +13,7 @@
     display: inline;
     color: #e75e03;
     font-weight: normal;
-    font-family: JetBrains;
+    font-family: PoppinsBold;
 }
 
 .navbar-item{

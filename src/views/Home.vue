@@ -28,6 +28,9 @@
       </div>
       </div>
     </div>
+    <div>
+      <fakeConsole></fakeConsole>
+    </div>
   </div>
   
 </template>
@@ -35,3 +38,13 @@
 <style scoped>
 @import url('../assets/styles/homeStyle.css');
 </style>
+
+<script>
+import fakeConsole from '../components/FakeConsole.vue'
+
+export default{
+  components: {
+    fakeConsole
+  }
+}
+</script>

@@ -2,12 +2,6 @@
     font-family: PoppinsBold;
     src: url('../fonts/Poppins/Poppins-Bold.ttf');
 }
-
-@font-face {
-    font-family: JetBrains;
-    src: url('../fonts/webfonts/JetBrainsMono-Regular.woff2');
-}
-
 .home-text{
     font-family: PoppinsBold;
     color: #cbd0d8;
@@ -21,7 +15,7 @@
     display: inline;
     color: #e75e03;
     font-weight: normal;
-    font-family: JetBrains;
+    font-family: PoppinsBold;
     padding: 0;
     margin: 0;
     margin-left: 100px;
@@ -72,7 +66,7 @@
     font-size: 15px;
     color: #e75e03;
     font-weight: normal;
-    font-family: JetBrains;
+    font-family: PoppinsBold;
     margin-left: 5px;
     display: inline;
 }

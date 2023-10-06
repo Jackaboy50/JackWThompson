@@ -2,7 +2,7 @@
     <div>
         <div class="navbar-container">
             <div class="nav-item-container grow">
-                <router-link class="navbar-item" to="Home"><h1 class="navbar-number">01.</h1>Home</router-link>
+                <router-link class="navbar-item" to="Home" @click.prevent="$bus.$emit('navbarLinkActivated', 'home')"><h1 class="navbar-number">01.</h1>Home</router-link>
             </div>
             <p class="navbar-item">|</p>
             <div class="nav-item-container grow">
@@ -24,3 +24,10 @@
 <style scoped>
     @import '../assets/styles/navbarStyle.css';
 </style>
+
+<script>
+export default{
+    inject: ['$bus']
+}
+</script>
+
