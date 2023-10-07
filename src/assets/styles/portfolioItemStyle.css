@@ -1,0 +1,93 @@
+@font-face {
+    font-family: PoppinsBold;
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+
+.title-right{
+    font-family: PoppinsBold;
+    color: #cbd0d8;
+    padding: 0;
+    margin-left: 200px;
+    font-size: 30px;
+}
+.image-right{
+    width: 400px;
+    height: 400px;
+    margin-left: 1300px;
+    margin-top: -300px;
+}
+.content-right{
+    font-family: PoppinsBold;
+    color: #abb2bf;
+    margin-left: 200px;
+    font-size: 20px;
+    width: 900px;
+    display: inline-block;
+}
+.github-text-right{
+    font-family: PoppinsBold;
+    color: #abb2bf;
+    margin-left: 200px;
+    font-size: 15px;
+    display: inline;
+}
+
+
+.title-left{
+    font-family: PoppinsBold;
+    color: #cbd0d8;
+    padding: 0;
+    margin-left: 650px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    font-size: 30px;
+}
+
+
+.image-left{
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+}
+
+
+.content-left{
+    font-family: PoppinsBold;
+    color: #abb2bf;
+    margin-left: 650px;
+    font-size: 20px;
+    width: 900px;
+    
+}
+.content-margin-top{
+    margin-top: -320px;
+}
+.content-margin-bottom{
+    margin-bottom: 150px;
+}
+.github-text-left{
+    font-family: PoppinsBold;
+    color: #abb2bf;
+    margin-left: 200px;
+    font-size: 15px;
+    display: inline;
+    margin-left: 650px;
+}
+.divider{
+    width: 60%;
+    height: 2px;
+    border-width: 0;
+    background-color: #e75e03;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.github-link-text{
+    font-size: 15px;
+    color: #e75e03;
+    font-weight: normal;
+    font-family: PoppinsBold;
+    margin-top: -50px;
+    margin-bottom: 40px;
+    display: inline;
+}
+

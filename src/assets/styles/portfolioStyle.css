@@ -1,0 +1,18 @@
+@font-face {
+    font-family: PoppinsBold;
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+.portfolio-info{
+    font-family: PoppinsBold;
+    color: #cbd0d8;
+    padding: 0;
+    margin-left: 300px;
+    font-size: 50px;
+}
+.portfolio-divider{
+    width: 40%;
+    height: 2px;
+    border-width: 0;
+    background-color: #e75e03;
+    margin-left: 170px;
+}

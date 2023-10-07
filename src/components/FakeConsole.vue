@@ -1,7 +1,6 @@
 <template>
     <div class="console-container">
-        <div class="console-header">
-        </div>
+        <div class="console-header"></div>
         <div class="console-body">
             <div class="console-text" id="console-text">
             </div>
@@ -64,6 +63,7 @@
         newLine.id = `console-text-${wordIndex}`
         if(document.getElementById("console-text") == null){
             endFunction = true
+            clearTimeout(currentTimeOut)
             return
         }
         document.getElementById("console-text").appendChild(newLine)
