@@ -11,7 +11,7 @@
                 <img  class="image-right" :src="imagePath" alt="Winforms chess">
             </div>
             <p class="github-text-right">{{ githubText }}</p>
-            <p class="github-link-text">{{ githubLink }}</p>
+            <a :href="githubLink" target="_blank" class="github-link-text">{{ githubLink }}</a>
         </div>
         <div v-if="position == 'left'">
             <h1 class="title-left">{{ title }}</h1>
@@ -24,7 +24,7 @@
             <p class="content-left content-margin-top">{{ firstContent }} </p>
             <p class="content-left content-margin-bottom">{{ secondContent }}</p>
             <p class="github-text-left">{{ githubText }}</p>
-            <p class="github-link-text">{{ githubLink }}</p>
+            <a :href="githubLink" target="_blank" class="github-link-text">{{ githubLink }}</a>
         </div>
         <hr class="divider">
     </div>

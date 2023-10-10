@@ -3,6 +3,7 @@
         <div class="console-header"></div>
         <div class="console-body">
             <div class="console-text" id="console-text">
+                <p class="console-text-0">></p>
             </div>
             </div>
         </div>
@@ -73,6 +74,9 @@
         wordIndex = 0
         textIndex = 0
         endFunction = false
+        if(document.getElementById("console-text") != null){
+            document.getElementById("console-text").innerHTML = '<p class="console-text-0">></p>'
+        }
         clearTimeout(currentTimeOut)
     }
     window.addEventListener("load", typeWriter)

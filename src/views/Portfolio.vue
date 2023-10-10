@@ -56,11 +56,29 @@
         firstContent="This is a Note taking application made in C# Winforms. It uses a procedurally generated
         graphical user interface (GUI) and .txt files to create, edit and store notes."
         secondContent="Notes are created by adding a title and text, then you can save the note locally or create a new note.
-        Any notes created will be added to the list of notes on the right and can be removed from there as well."
+        Any notes created will be added to the list of notes on the right and can be removed from there as well. This project is 
+        fully commented which will give you an idea of my commenting process."
         githubText="This project can be found on my GitHub page here: "
         githubLink="https://github.com/Jackaboy50/NotePad-App"
         position="right"
         imgW="600"
+        ></portfolioItem>
+
+        <portfolioItem
+        title="A Level Pokemon Project - C# / Unity / Webscraping / Git / HTML"
+        image='pokemonproject.png'
+        firstContent="The Pokemon project is what I designed and created for my final A level project. This was my first large
+        project that I ever made and took a lot of effort in programming and documentation to create. This was both a passion
+        project for fun and my A level project as I enjoyed making it a lot."
+        secondContent="The project itself is a Pokemon battle simulator for Unity. I have two different projects for this, one that works
+        in the console and the other that uses Unity as a GUI. It works by using Pokemon data store in a JSON object to create instances of classes
+        which can be used through many methods to create a battle scene. I built a webscraper using HTMLagilitypack to scrape the Pokemon data
+        from a public Pokemon database. The project isn't entirely bug free but has had a large amount of effort put into both the code and 
+        documentation."
+        githubText="More info on this project can be found on my GitHub page here: "
+        githubLink="https://github.com/Jackaboy50/Pokemon-Project"
+        position="right"
+        imgW="650"
         ></portfolioItem>
     
     </div>
