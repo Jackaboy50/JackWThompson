@@ -2,20 +2,14 @@
     font-family: PoppinsBold;
     src: url('../fonts/Poppins/Poppins-Bold.ttf');
 }
+
 .contact-info{
     font-family: PoppinsBold;
     color: #cbd0d8;
     padding: 0;
     margin: 0;
     text-align: center;
-    font-size: 50px;
-}
-.contact-subinfo{
-    font-family: PoppinsBold;
-    color: #abb2bf;
-    margin-left: 400px;
-    font-size: 20px;
-    width: 700px;
+    font-size: 30px;
 }
 .contact-divider{
     width: 50%;
@@ -28,7 +22,7 @@
     color: #e75e03;
     font-weight: 100;
     font-family: PoppinsBold;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     display: inline;
 }
@@ -37,7 +31,7 @@
     color: #abb2bf;
     font-weight: 100;
     font-family: PoppinsBold;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     display: inline;
 }
@@ -46,4 +40,45 @@
 }
 .top-margin{
     margin-top: 350px;
+}
+
+@media screen and (min-width: 940px) and (min-height: 760px) {
+    .contact-info{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 50px;
+    }
+    .contact-divider{
+        width: 50%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+    }
+    .email-at-text{
+        font-size: 15px;
+        color: #e75e03;
+        font-weight: 100;
+        font-family: PoppinsBold;
+        font-size: 30px;
+        text-align: center;
+        display: inline;
+    }
+    .email-text{
+        font-size: 15px;
+        color: #abb2bf;
+        font-weight: 100;
+        font-family: PoppinsBold;
+        font-size: 30px;
+        text-align: center;
+        display: inline;
+    }
+    .email-container{
+        text-align: center;
+    }
+    .top-margin{
+        margin-top: 350px;
+    }
 }

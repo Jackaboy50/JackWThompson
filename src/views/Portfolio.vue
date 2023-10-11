@@ -16,14 +16,14 @@
         ></portfolioItem>
 
         <portfolioItem
-        title="Naughts and Crosses - C# / Winforms / Git"
+        title="Noughts and Crosses - C# / Winforms / Git"
         image='winformsOX.png'
         firstContent="This C# Winforms implementation of naughts and crosses works similarly to the previous chess project.
         It currently has a fully functional Win/Loss/Draw menu and can be replayed in a loop"
         secondContent="I also plan to add different levels of AI using the minimax algorithm to go into varying depths,
         simulating different skill levels."
         githubText="This project can be found on my GitHub page here: "
-        githubLink="https://github.com/Jackaboy50/Naughts-and-Crosses"
+        githubLink="https://github.com/Jackaboy50/Noughts-and-Crosses"
         position="right"
         ></portfolioItem>
 
