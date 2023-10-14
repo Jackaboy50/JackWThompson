@@ -7,14 +7,11 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-top: 0.5rem;
     text-align: center;
 }
 
 .navbar-number{
-    font-size: 0.4rem;
+    font-size: 0.3rem;
     display: inline;
     color: #e75e03;
     font-weight: normal;
@@ -24,7 +21,7 @@
 .navbar-item{
     color: #abb2bf;
     text-decoration: none;
-    margin: 1.3rem;
+    margin: 0.9rem;
     font-family: PoppinsBold;
     display: inline;
 }
@@ -34,7 +31,7 @@
 
 .nav-item-container{
     display: inline;
-    font-size: 0.4rem;
+    font-size: 0.5rem;
 }
 
 .grow{
@@ -42,7 +39,7 @@
 }
 
 .grow:hover{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 
 .navbar-divider{
@@ -58,13 +55,13 @@
     }
     .nav-item-container,
     .navbar-number{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
     .grow:hover{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .navbar-item{
-        margin: 1.4rem;
+        margin: 1.2rem;
     }
     .navbar-splitter{
         font-size: 0.6rem;

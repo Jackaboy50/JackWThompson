@@ -6,13 +6,13 @@
     font-family: PoppinsBold;
     color: #cbd0d8;
     padding: 0;
-    margin-left: 300px;
-    font-size: 50px;
+    margin-left: 18rem;
+    font-size: 3.3rem;
 }
 .portfolio-divider{
     width: 40%;
     height: 2px;
     border-width: 0;
     background-color: #e75e03;
-    margin-left: 170px;
+    margin-left: 13rem;
 }

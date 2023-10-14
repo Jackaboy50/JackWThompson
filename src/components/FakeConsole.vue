@@ -90,6 +90,6 @@
                     currentTimeOut = setTimeout(typeWriter, typeSpeed)
                 }
             })
-        }
+        },
     }
 </script>

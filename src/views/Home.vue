@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="home-container">
+    <div class="container">
       <h2 class="home-toptext">Hi there, my name is</h2>
       <h1 class="home-text">Jack Thompson</h1>
       <div>
@@ -45,6 +45,6 @@ import fakeConsole from '../components/FakeConsole.vue'
 export default{
   components: {
     fakeConsole
-  }
+  },
 }
 </script>

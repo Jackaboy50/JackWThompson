@@ -7,11 +7,11 @@ import Contact from './views/Contact.vue'
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-        {path: '/', component: Home, props: true, alias: '/home'},
-        {path: '/Home', component: Home, props: true},
-        {path: '/Portfolio', component: Portfolio, props: true},
-        {path: '/About', component: About, props: true},
-        {path: '/Contact', component: Contact, props: true}
+        {path: '/', component: Home, alias: '/home'},
+        {path: '/Home', component: Home},
+        {path: '/Portfolio', component: Portfolio},
+        {path: '/About', component: About},
+        {path: '/Contact', component: Contact}
     ]
 })
 
