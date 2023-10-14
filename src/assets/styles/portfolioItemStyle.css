@@ -18,10 +18,10 @@
     }
     .image-left,
     .image-right{
-        width: 0rem;
-        height: 0rem;
-        margin-left: 0rem;
-        margin-top: 0rem;
+        width: 0rem !important; 
+        height: 0rem !important;
+        margin-left: 0rem !important;
+        margin-top: 0rem !important;
     }
     .content-left,
     .content-right{
@@ -72,10 +72,10 @@
     }
     .image-left,
     .image-right{
-        width: 0rem;
-        height: 0rem;
-        margin-left: 0rem;
-        margin-top: 0rem;
+        width: 0rem !important;
+        height: 0rem !important;
+        margin-left: 0rem !important;
+        margin-top: 0rem !important;
     }
     .content-left,
     .content-right{
@@ -128,10 +128,10 @@
     }
     .image-left,
     .image-right{
-        width: 0rem;
-        height: 0rem;
-        margin-left: 0rem;
-        margin-top: 0rem;
+        width: 0rem !important;
+        height: 0rem !important;
+        margin-left: 0rem !important;
+        margin-top: 0rem !important;
     }
     .content-left,
     .content-right{
@@ -184,10 +184,10 @@
     }
     .image-left,
     .image-right{
-        width: 0rem;
-        height: 0rem;
-        margin-left: 0rem;
-        margin-top: 0rem;
+        width: 0rem !important;
+        height: 0rem !important;
+        margin-left: 0rem !important;
+        margin-top: 0rem !important;
     }
     .content-left,
     .content-right{
@@ -239,10 +239,10 @@
     }
     .image-left,
     .image-right{
-        width: 0rem;
-        height: 0rem;
-        margin-left: 0rem;
-        margin-top: 0rem;
+        width: 0rem !important;
+        height: 0rem !important;
+        margin-left: 0rem !important;
+        margin-top: 0rem !important;
     }
     .content-left,
     .content-right{
@@ -312,9 +312,6 @@
         font-size: 0.9rem;
         display: inline;
     }
-
-
-    
     .title-left{
         font-family: PoppinsBold;
         color: #cbd0d8;

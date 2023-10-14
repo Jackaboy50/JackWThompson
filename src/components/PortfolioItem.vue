@@ -23,8 +23,8 @@
             </div>
             <p class="content-left content-margin-top">{{ firstContent }} </p>
             <p class="content-left content-margin-bottom">{{ secondContent }}</p>
-            <p class="github-text-left">{{ githubText }}</p>
-            <a :href="githubLink" target="_blank" class="github-link-text">{{ githubLink }}</a>
+            <p v-if="githubText" class="github-text-left">{{ githubText }}</p>
+            <a v-if="githubLink" :href="githubLink" target="_blank" class="github-link-text">{{ githubLink }}</a>
         </div>
         <hr class="divider">
     </div>
