@@ -396,7 +396,7 @@
     .home-text{
         font-family: PoppinsBold;
         color: #cbd0d8;
-        margin-left: -10rem;
+        margin-left: -20rem;
         font-size: 4.5rem;
     }
     .home-toptext{
@@ -405,12 +405,12 @@
         color: #e75e03;
         font-weight: normal;
         font-family: PoppinsBold;
-        margin-left: -10rem;
+        margin-left: -20rem;
     }
     .home-about-text{
         font-family: PoppinsBold;
         color: #abb2bf;
-        margin-left: -10rem;
+        margin-left: -20rem;
         font-size: 1rem;
         margin-bottom: -1rem;
     }
@@ -423,7 +423,7 @@
     .divider-container{
         padding-top: 3rem;
         margin-right: 100rem;
-        margin-left: -11rem;
+        margin-left: -21rem;
         padding-left: 1rem;
     }
     .welcome-title{
@@ -431,13 +431,13 @@
         color: #cbd0d8;
         padding: 0;
         margin-top: 3rem;
-        margin-left: -10rem;
+        margin-left: -20rem;
         font-size: 2rem;
     }
     .welcome-text{
         font-family: PoppinsBold;
         color: #abb2bf;
-        margin-left: -10rem;
+        margin-left: -20rem;
         font-size: 1rem;
         display: inline;
     }
