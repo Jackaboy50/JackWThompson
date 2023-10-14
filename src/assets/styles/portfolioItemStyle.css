@@ -7,10 +7,108 @@
     margin-left: auto;
     margin-right: auto;
 }
+.title-left,
+    .title-right{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .image-left,
+    .image-right{
+        width: 0rem;
+        height: 0rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+    .content-left,
+    .content-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 0.5rem;
+        font-size: 0.6rem;
+        width: 21rem;
+        display: inline-block;
+    }
+    .github-text-left,
+    .github-text-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 0.5rem;
+        font-size: 0.5rem;
+        display: inline;
+    }
+    .divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .github-link-text{
+        font-size: 0.5rem;
+        margin-left: 0.5rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        display: inline;
+    }
 /* xs */
 @media (min-width: 475px) {
     .container{
         max-width: 475px;
+    }
+    .title-left,
+    .title-right{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+    .image-left,
+    .image-right{
+        width: 0rem;
+        height: 0rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+    .content-left,
+    .content-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.7rem;
+        width: 27rem;
+        display: inline-block;
+    }
+    .github-text-left,
+    .github-text-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.6rem;
+        display: inline;
+    }
+    .divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .github-link-text{
+        font-size: 0.6rem;
+        margin-left: 1rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        display: inline;
     }
 }
 
@@ -19,6 +117,54 @@
     .container{
         max-width: 640px;
     }
+    .title-left,
+    .title-right{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+    .image-left,
+    .image-right{
+        width: 0rem;
+        height: 0rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+    .content-left,
+    .content-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.8rem;
+        width: 37rem;
+        display: inline-block;
+    }
+    .github-text-left,
+    .github-text-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.6rem;
+        display: inline;
+    }
+    .divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .github-link-text{
+        font-size: 0.6rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        display: inline;
+    }
 }
 
 /* md */
@@ -26,12 +172,109 @@
     .container{
         max-width: 768px;
     }
+    .title-left,
+    .title-right{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-size: 1.7rem;
+        width: 45rem;
+    }
+    .image-left,
+    .image-right{
+        width: 0rem;
+        height: 0rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+    .content-left,
+    .content-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.9rem;
+        width: 45rem;
+        display: inline-block;
+    }
+    .github-text-left,
+    .github-text-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.8rem;
+        display: inline;
+    }
+    .divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .github-link-text{
+        font-size: 0.7rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        display: inline;
+    }
 }
 
 /* lg */
 @media (min-width: 1024px) {
     .container{
         max-width: 1024px;
+    }
+    .title-left,
+    .title-right{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-top: -7rem;
+        margin-left: 1rem;
+        font-size: 1.7rem;
+    }
+    .image-left,
+    .image-right{
+        width: 0rem;
+        height: 0rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+    .content-left,
+    .content-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 1.3rem;
+        width: 60rem;
+        display: inline-block;
+    }
+    .github-text-left,
+    .github-text-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.9rem;
+        display: inline;
+    }
+    .divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .github-link-text{
+        font-size: 0.9rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        display: inline;
     }
 }
 
@@ -44,81 +287,83 @@
         font-family: PoppinsBold;
         color: #cbd0d8;
         padding: 0;
-        margin-left: -1rem;
+        margin-top: -7rem;
+        margin-left: -7rem;
         font-size: 1.7rem;
     }
     .image-right{
-        width: 400px;
-        height: 400px;
-        margin-left: 1300px;
-        margin-top: -300px;
+        width: 25rem;
+        height: 25rem;
+        margin-left: 65rem;
+        margin-top: -20rem;
     }
     .content-right{
         font-family: PoppinsBold;
         color: #abb2bf;
-        margin-left: 200px;
-        font-size: 20px;
-        width: 900px;
+        margin-left: -7rem;
+        font-size: 1.3rem;
+        width: 60rem;
         display: inline-block;
     }
     .github-text-right{
         font-family: PoppinsBold;
         color: #abb2bf;
-        margin-left: 200px;
-        font-size: 15px;
+        margin-left: -7rem;
+        font-size: 0.9rem;
         display: inline;
     }
+
+
+    
     .title-left{
         font-family: PoppinsBold;
         color: #cbd0d8;
         padding: 0;
-        margin-left: 650px;
-        margin-top: 50px;
-        margin-bottom: -50px;
-        font-size: 30px;
+        margin-left: 19rem;
+        width: 65rem;
+        margin-top: -6rem;
+        margin-bottom: -2rem;
+        font-size: 1.7rem;
     }
     .image-left{
-        width: 400px;
-        height: 400px;
-        margin-left: 200px;
+        width: 25rem;
+        height: 25rem;
+        margin-left: -10rem;
+        margin-top: -2rem;
     }
     .content-left{
         font-family: PoppinsBold;
         color: #abb2bf;
-        margin-left: 650px;
-        font-size: 20px;
-        width: 900px;
-        
+        margin-left: 19rem;
+        font-size: 1.3rem;
+        width: 65rem;
     }
     .content-margin-top{
-        margin-top: -320px;
+        margin-top: -20rem;
     }
     .content-margin-bottom{
-        margin-bottom: 150px;
+        margin-bottom: 10rem;
     }
     .github-text-left{
         font-family: PoppinsBold;
         color: #abb2bf;
-        margin-left: 200px;
-        font-size: 15px;
+        font-size: 1rem;
         display: inline;
-        margin-left: 650px;
+        margin-left: 19rem;
     }
     .divider{
         width: 60%;
         height: 2px;
         border-width: 0;
         background-color: #e75e03;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
     .github-link-text{
-        font-size: 15px;
+        font-size: 0.9rem;
         color: #e75e03;
         font-weight: normal;
         font-family: PoppinsBold;
-        margin-top: -50px;
-        margin-bottom: 40px;
         display: inline;
     }
 }

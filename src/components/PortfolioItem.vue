@@ -5,7 +5,7 @@
             <p class="content-right">{{ firstContent }} </p>
             <p class="content-right">{{ secondContent }}</p>
             <div v-if="imgW !== null">
-                <img class="image-right" :src="imagePath" alt="Winforms chess" :style="{width: imgW + 'px', marginLeft: 1300 - (imgW - 500) + 'px'}">
+                <img class="image-right" :src="imagePath" alt="Winforms chess" :style="{width: imgW + 'px', marginLeft: 62 - ((imgW - 500) / 25) + 'rem'}">
             </div>
             <div v-else>
                 <img  class="image-right" :src="imagePath" alt="Winforms chess">

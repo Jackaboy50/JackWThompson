@@ -6,7 +6,95 @@
     font-family: PoppinsBold;
     color: #cbd0d8;
     padding: 0;
-    margin-left: 18rem;
+    margin-left: 2rem;
+    font-size: 1.7rem;
+}
+.portfolio-divider{
+    width: 50%;
+    height: 2px;
+    border-width: 0;
+    background-color: #e75e03;
+    margin-left: 1rem;
+}
+/* xs */
+@media (min-width: 475px) {
+    .portfolio-info{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+    .portfolio-divider{
+        width: 50%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-left: 1rem;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .portfolio-info{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-left: 3rem;
+        font-size: 2.5rem;
+    }
+    .portfolio-divider{
+        width: 40%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-left: 1rem;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .portfolio-info{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-left: 3rem;
+        font-size: 3rem;
+    }
+    .portfolio-divider{
+        width: 40%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-left: 1rem;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .portfolio-info{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-left: 3rem;
+        font-size: 3.3rem;
+    }
+    .portfolio-divider{
+        width: 40%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-left: 1rem;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+.portfolio-info{
+    font-family: PoppinsBold;
+    color: #cbd0d8;
+    padding: 0;
+    margin-left: 10rem;
     font-size: 3.3rem;
 }
 .portfolio-divider{
@@ -14,5 +102,6 @@
     height: 2px;
     border-width: 0;
     background-color: #e75e03;
-    margin-left: 13rem;
+    margin-left: 8rem;
+}
 }
