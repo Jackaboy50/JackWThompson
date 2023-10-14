@@ -13,8 +13,9 @@
         githubText="This project can be found on my GitHub page here: "
         githubLink="https://github.com/Jackaboy50/Winforms-Chess"
         position="right"
+        imgW="400px"
+        imgH="400px"
         ></portfolioItem>
-
         <portfolioItem
         title="Noughts and Crosses - C# / Winforms / Git"
         image='winformsOX.png'
@@ -25,6 +26,8 @@
         githubText="This project can be found on my GitHub page here: "
         githubLink="https://github.com/Jackaboy50/Noughts-and-Crosses"
         position="right"
+        imgW="400px"
+        imgH="400px"
         ></portfolioItem>
 
         <portfolioItem
@@ -35,6 +38,8 @@
         secondContent="All components were created by myself apart from the router used to route different content into a single
         page application. The router is an NPM package that I installed into the project."
         position="left"
+        imgW="400px"
+        imgH="400px"
         ></portfolioItem>
 
         <portfolioItem
@@ -48,6 +53,8 @@
         githubText="This project can be found on my GitHub page here: "
         githubLink="https://github.com/Jackaboy50/Minesweeper"
         position="left"
+        imgW="400px"
+        imgH="400px"
         ></portfolioItem>
 
         <portfolioItem
@@ -61,7 +68,8 @@
         githubText="This project can be found on my GitHub page here: "
         githubLink="https://github.com/Jackaboy50/NotePad-App"
         position="right"
-        imgW="600"
+        imgW="600px"
+        imgH="400px"
         ></portfolioItem>
 
         <portfolioItem
@@ -78,9 +86,9 @@
         githubText="More info on this project can be found on my GitHub page here: "
         githubLink="https://github.com/Jackaboy50/Pokemon-Project"
         position="right"
-        imgW="650"
+        imgW="650px"
+        imgH="400px"
         ></portfolioItem>
-    
     </div>
 </template>
 
