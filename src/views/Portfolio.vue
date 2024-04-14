@@ -73,20 +73,16 @@
         ></portfolioItem>
 
         <portfolioItem
-        title="A Level Pokemon Project - C# / Unity / Webscraping / Git / HTML"
-        image='pokemonproject.png'
-        firstContent="The Pokemon project is what I designed and created for my final A level project. This was my first large
-        project that I ever made and took a lot of effort in programming and documentation to create. This was both a passion
-        project for fun and my A level project as I enjoyed making it a lot."
-        secondContent="The project itself is a Pokemon battle simulator for Unity. I have two different projects for this, one that works
-        in the console and the other that uses Unity as a GUI. It works by using Pokemon data store in a JSON object to create instances of classes
-        which can be used through many methods to create a battle scene. I built a webscraper using HTMLagilitypack to scrape the Pokemon data
-        from a public Pokemon database. The project isn't entirely bug free but has had a large amount of effort put into both the code and 
-        documentation."
+        title="Pokemon 2048 - C++ / C / Raylib / Git"
+        image='pokemon2048.png'
+        firstContent="This will be a Pokemon version of the popular game 2048. I created this in C++ using a library called raylib."
+        secondContent="I created this project because I am learning C++ in a University module and so I wanted something fun to code
+        so that I could better learn the language. The project currently runs like regular 2048 but will have the tiles exchanged
+        for image of Pokemon."
         githubText="More info on this project can be found on my GitHub page here: "
-        githubLink="https://github.com/Jackaboy50/Pokemon-Project"
+        githubLink="https://github.com/Jackaboy50/Pokemon-2048"
         position="right"
-        imgW="650px"
+        imgW="400px"
         imgH="400px"
         ></portfolioItem>
     </div>
