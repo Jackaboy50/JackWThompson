@@ -1,0 +1,109 @@
+@font-face {
+    font-family: PoppinsBold;
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+
+.contact-info{
+    font-family: PoppinsBold;
+    color: #cbd0d8;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+.contact-divider{
+    width: 20em;
+    height: 2px;
+    border-width: 0;
+    background-color: #e75e03;
+}
+.email-at-text{
+    font-size: 1rem;
+    color: #e75e03;
+    font-weight: 100;
+    font-family: PoppinsBold;
+    text-align: center;
+    display: inline;
+}
+.email-text{
+    font-size: 1rem;
+    color: #abb2bf;
+    font-weight: 100;
+    font-family: PoppinsBold;
+    text-align: center;
+    display: inline;
+}
+.email-container{
+    text-align: center;
+}
+@media screen and (min-width: 475px){
+    .contact-info{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .contact-divider{
+        width: 25rem;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+    }
+    .email-at-text{
+        font-size: 1.5rem;
+        color: #e75e03;
+        font-weight: 100;
+        font-family: PoppinsBold;
+        text-align: center;
+        display: inline;
+    }
+    .email-text{
+        font-size: 1.5rem;
+        color: #abb2bf;
+        font-weight: 100;
+        font-family: PoppinsBold;
+        text-align: center;
+        display: inline;
+    }
+    .email-container{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .contact-info{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 50px;
+    }
+    .contact-divider{
+        width: 40rem;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+    }
+    .email-at-text{
+        font-size: 2rem;
+        color: #e75e03;
+        font-weight: 100;
+        font-family: PoppinsBold;
+        text-align: center;
+        display: inline;
+    }
+    .email-text{
+        font-size: 2rem;
+        color: #abb2bf;
+        font-weight: 100;
+        font-family: PoppinsBold;
+        text-align: center;
+        display: inline;
+    }
+    .email-container{
+        text-align: center;
+    }
+}

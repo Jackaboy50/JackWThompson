@@ -1,0 +1,239 @@
+@font-face {
+    font-family: PoppinsBold;
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-left,
+.title-right{
+    font-family: PoppinsBold;
+    color: #cbd0d8;
+    padding: 0;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+}
+.content-left,
+.content-right{
+    font-family: PoppinsBold;
+    color: #abb2bf;
+    margin-left: 0.5rem;
+    font-size: 0.6rem;
+    width: 21rem;
+    display: inline-block;
+}
+.github-text-left,
+.github-text-right{
+    font-family: PoppinsBold;
+    color: #abb2bf;
+    margin-left: 0.5rem;
+    font-size: 0.5rem;
+}
+.divider{
+    width: 60%;
+    height: 2px;
+    border-width: 0;
+    background-color: #e75e03;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.github-link-text{
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    color: #e75e03;
+    font-weight: normal;
+    font-family: PoppinsBold;
+    display: inline;
+}
+/* xs */
+@media (min-width: 475px) {
+    .container{
+        max-width: 475px;
+    }
+    .title-left,
+    .title-right{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+    .content-left,
+    .content-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.7rem;
+        width: 27rem;
+        display: inline-block;
+    }
+    .github-text-left,
+    .github-text-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.6rem;
+    }
+    .divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .github-link-text{
+        font-size: 0.6rem;
+        margin-left: 1rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        display: inline;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .container{
+        max-width: 640px;
+    }
+    .title-left,
+    .title-right{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+    .content-left,
+    .content-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.8rem;
+        width: 37rem;
+        display: inline-block;
+    }
+    .github-text-left,
+    .github-text-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.6rem;
+    }
+    .divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .github-link-text{
+        font-size: 0.6rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        display: inline;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .container{
+        max-width: 768px;
+    }
+    .title-left,
+    .title-right{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-size: 1.7rem;
+        width: 45rem;
+    }
+    .content-left,
+    .content-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.9rem;
+        width: 45rem;
+        display: inline-block;
+    }
+    .github-text-left,
+    .github-text-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.8rem;
+    }
+    .divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .github-link-text{
+        font-size: 0.7rem;
+        margin-left: 1rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        display: inline;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .container{
+        max-width: 1024px;
+    }
+    .title-left,
+    .title-right{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-left: 1rem;
+        font-size: 1.7rem;
+    }
+    .content-left,
+    .content-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 1.3rem;
+        width: 60rem;
+        display: inline-block;
+    }
+    .github-text-left,
+    .github-text-right{
+        font-family: PoppinsBold;
+        color: #abb2bf;
+        margin-left: 1rem;
+        font-size: 0.9rem;
+    }
+    .divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .github-link-text{
+        font-size: 0.9rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        display: inline;
+    }
+}

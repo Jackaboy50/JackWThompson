@@ -1,0 +1,199 @@
+.about-title{
+    font-family: PoppinsBold;
+    color: #cbd0d8;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.about-divider{
+    width: 60%;
+    height: 2px;
+    border-width: 0;
+    background-color: #e75e03;
+}
+.about-text{
+    font-family: PoppinsBold;
+    color: #cbd0d8;
+    padding: 0;
+    margin-left: 0.7rem;
+    width: 21rem;
+    font-size: 0.5rem;
+}
+.about-subtitle{
+    font-size: 1rem;
+    color: #e75e03;
+    font-weight: normal;
+    font-family: PoppinsBold;
+    margin-left: 0.7rem;
+    display: inline;
+}
+/* xs */
+@media (min-width: 475px) {
+    .about-title{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .about-divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+    }
+    .about-text{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-left: 1rem;
+        width: 25rem;
+        font-size: 0.6rem;
+    }
+    .about-subtitle{
+        font-size: 1.2rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        margin-left: 1rem;
+        display: inline;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .about-title{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .about-divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+    }
+    .about-text{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-left: 1.4rem;
+        width: 35rem;
+        font-size: 0.8rem;
+    }
+    .about-subtitle{
+        font-size: 1.4rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        margin-left: 1.4rem;
+        display: inline;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .about-title{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 2.7rem;
+    }
+    .about-divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+    }
+    .about-text{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-left: 1.4rem;
+        width: 40rem;
+        font-size: 0.9rem;
+    }
+    .about-subtitle{
+        font-size: 1.5rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        margin-left: 1.4rem;
+        display: inline;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .about-title{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 2.9rem;
+    }
+    .about-divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+    }
+    .about-text{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-left: 7rem;
+        width: 50rem;
+        font-size: 1rem;
+    }
+    .about-subtitle{
+        font-size: 1.7rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        margin-left: 7rem;
+        display: inline;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .about-title{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .about-divider{
+        width: 60%;
+        height: 2px;
+        border-width: 0;
+        background-color: #e75e03;
+    }
+    .about-text{
+        font-family: PoppinsBold;
+        color: #cbd0d8;
+        padding: 0;
+        margin-left: 24rem;
+        width: 60rem;
+        font-size: 1.1rem;
+    }
+    .about-subtitle{
+        font-size: 2rem;
+        color: #e75e03;
+        font-weight: normal;
+        font-family: PoppinsBold;
+        margin-left: 24rem;
+        display: inline;
+    }
+}
